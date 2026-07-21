@@ -1,0 +1,11 @@
+main.main{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    background:#eceff1;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: sans-serif;
+    overflow-y: auto;
+    height: calc(100vh - 200px);
+}
