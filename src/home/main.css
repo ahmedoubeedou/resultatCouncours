@@ -7,5 +7,56 @@ main.main{
     padding: 10px;
     font-family: sans-serif;
     overflow-y: auto;
+   
     height: calc(100vh - 200px);
+}
+.serche , .serche div , .serche div div {
+    direction: rtl;
+}
+.bolck{
+    display: block;
+}
+.list-lien{
+    color:white;
+    font-size: 14px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    background-color: black;
+    opacity: 0.8;
+    transition: 0.5s;
+  
+}
+.list-lien p:hover{
+    color:maroon;
+}
+header{
+    direction: rtl;
+}
+div.h1{
+    direction: rtl;
+}
+@media(max-width:540px)
+{
+  .logo-response img{
+    margin-right: -40px;
+  }
+    .serche{
+        flex-direction: column !important;
+        gap:8px !important;
+        width:350px !important;
+    }
+    .serche div div .InputBase{
+        width:300px !important;
+       
+    }
+    .responsive{
+        font-size: 10px;
+    }
+    .titre{
+        font-size: 10px !important;
+    }
+    .arch{
+        font-size: 13px !important;
+        margin-right: -40px;
+    }
 }

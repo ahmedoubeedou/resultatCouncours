@@ -1,0 +1,10 @@
+nom:NOM_FR
+matricule:NODOSS
+serie:SERIE
+date:DATN
+wilaya:Wilaya_FR
+medina:LIEUN_FR
+center:center
+etablismanet:Etablissement_FR
+discussion:Decision
+moyenn:Moy
